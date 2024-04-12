@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%; 
+}
+header nav{
+          display: flex;
+          align-items:center;
+          background: linear-gradient(to right ,rgba(24, 48, 132, 1),rgba(101, 126, 214, 1));
+          position: fixed;
+          width: 100%; 
+          height: 10%;
+          border-bottom-left-radius: 20px;
+}
+header nav button{
+             width: 120px;
+             height: 30px;
+            border-radius: 16px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: aliceblue;
+            text-align: center;
+            color: rgba(67, 89, 203, 1);
+            border-color: aliceblue;
+}
+.signup{
+  width: 100%;
+}
+header nav li{
+  display: flex;
+  width: 10%;
+  list-style: none;
+  margin: 0 16px;
+  color: aliceblue;
+  justify-content: space-around;
+}
+header nav menu{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline; 
+  list-style: none;
+  padding-left: 20%;
+}
+#mnfirst{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+.firstline{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+#firstbox{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 102, 255, 0.2);
+  width:40%;
+  height: 17em;
+  border-radius: 30px
+}
+#mnsecond{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+#secondbox{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 102, 255, 0.2);
+  width: 50%;
+  height: 12rem;
+  border-radius: 20px;
+}
+.secondline{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+#comment{
+  margin-bottom: 2%;
+  padding-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#comment article{
+  display: flex;
+}
+#comment article aside p{
+  display: flex;
+  align-items: center;
+  background-color: rgba(78, 98, 171, 1);
+  width: 250px;
+  height: 90px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
+}
+#comment article aside article{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+#comment article aside article article{
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#comment article aside article article section{
+  display: flex;
+  align-content:space-between;
+  width: 150px;
+  flex-direction: row;
+}
+#comment2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#comment2 article{
+  display: flex;
+  align-items: center;
+}
+#comment2 article aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#comment2 article aside p{
+  display: flex;
+  align-items: center;
+  background-color: rgba(78, 98, 171, 1);
+  width: 250px;
+  height: 90px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
+  padding-left: 20px;
+}
+#comment2 article aside article{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+#comment2 article aside article article{
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#comment2 article aside article article section{
+  display: flex;
+  align-content:space-between;
+  width: 150px;
+  flex-direction: row;
+}
+#sponsor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  align-content: center;
+  flex-direction: column;
+}
+#sponsor article{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#sponsor h3{
+  display: block;
+  width: auto;
+  text-align: center; 
+}
+footer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+footer article{
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(to right ,rgba(44, 68, 196, 1),rgba(66, 86, 190, 0.87));
+}
+footer article nav menu{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+footer article a{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
